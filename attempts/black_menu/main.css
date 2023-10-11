@@ -1,0 +1,27 @@
+.menu_black {
+    padding: 6px 100px;
+    background-color: #1E1E1E;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+
+    display: flex;
+    align-items: center;
+}
+
+.first-item, .list-item {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.first-item {
+    margin-right: auto;
+}
+
+.list-item:last-child {
+    margin-left: 32px;
+}

@@ -1,0 +1,1362 @@
+@media screen and (max-width: 1025px) {
+    .arrivals {
+        padding: 0 10px 0 10px;
+    }
+    .refresh__main-item {
+        max-width: 400px;
+        height: auto;
+    }
+    .refresh__pics {
+        justify-content: normal;
+    }
+    .add-items {
+        /*width: 460px;*/
+    }
+    .refresh__add-item {
+        width: 220px;
+    }
+    .add-2, .add-4 {
+        margin-left: 20px;
+    }
+    .atelier-trending {
+        padding: 80px 10px;
+    }
+    .trending__item {
+        width: 180px;
+        height: 348px;
+        border: 1px solid #E0DBD2;
+    }
+    .trending_photo_container {
+        width: 180px;
+    }
+    .trending_pic {
+        width: 100%;
+        height: 100%;
+    }
+    .add {
+        width: 80%;
+    }
+    .trending__quick_view_rect {
+        padding: 5px 0;
+        width: 13px;
+        height: 80%;
+    }
+    .trending__quick_view_text {
+        padding-left: 0;
+    }
+    .atelier-value {
+        padding: 98px 10px 80px ;
+        background: #F9F7F4;
+    }
+    /*.cook {*/
+    /*    padding: 0 10px;*/
+    /*}*/
+    .cook__item {
+        max-width: 490px;
+        height: 431px;
+    }
+    .addit {
+        padding: 0 10px;
+    }
+    .quality__add-info {
+        padding: 118px 30px 61px;
+    }
+    .footer {
+        padding: 78px 30px 38px;
+    }
+    .footer__prop {
+        position: absolute;
+        bottom: 32px;
+        width: 87%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .header__image {
+        padding: 0 10px;
+    }
+    .arrivals {
+        padding: 50px 10px 0;
+    }
+    .arrivals__pics {
+        margin-bottom: 60px;
+    }
+    .arrivals__pics_item {
+        max-width: 360px;
+    }
+    .arrivals__photo-container {
+        width: 100%;
+    }
+    .jewellery__item_photo_container {
+        width: 230px;
+        height: 230px;
+        position: relative;
+    }
+    .quick_view_rect {
+        padding: 5px 0;
+    }
+    .lines_prop {
+        margin: 44px 0 39px;
+    }
+    .refresh__pics {
+        margin: 0 118px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .add-1, .add-2 {
+        margin-top: 20px;
+        /*margin-right: auto;*/
+    }
+    .add-items {
+        justify-content: space-evenly;
+    }
+    .refresh__price {
+        margin-bottom: 10px;
+    }
+    .even-more {
+        margin-bottom: 60px;
+    }
+    .even-more__pics {
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .even-more__pics a {
+        margin-top: 10px;
+    }
+    .cook__item {
+        max-width: 360px;
+        height: auto;
+    }
+    .atelier-series {
+        padding: 20px 80px 50px 80px;
+    }
+    .atelier-series__desc {
+        padding-top: 20px;
+    }
+    .atelier-series__pic {
+        max-width: 320px;
+        max-height: 320px;
+    }
+    .atelier-trending {
+        padding: 40px 10px 0;
+    }
+    .trending_photo_container {
+        max-width: 140px;
+        max-height: 140px;
+        position: relative;
+    }
+    .trending_photo_container img {
+        width: 100%;
+        height: 100%;
+    }
+    .add {
+        width: 100%;
+    }
+    .trending__item {
+        width: 140px;
+        height: auto;
+        border: 1px solid #E0DBD2;
+    }
+    .trending__quick_view {
+        width: 80%;
+        height: 24px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .trending__quick_view img {
+        width: 15px;
+    }
+    .trending__quick_view_rect {
+        padding: 4px 0;
+    }
+    .trending__quick_view_text {
+        margin-left: 9px;
+        padding: 0;
+    }
+    .trending_new, .trending_new-dark {
+        top: 6px;
+        left: 5px;
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .trending__item_title {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .trending__bvlgari {
+        margin-bottom: 8px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .trending__item_manufact {
+        margin-bottom: 5px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .refresh__color {
+        display: inline-block;
+        padding-bottom: 3px;
+    }
+    .atelier-value {
+        padding: 50px 10px 50px;
+    }
+    .value__item {
+        max-width: 230px;
+        max-height: 332px;
+        padding: 15px;
+    }
+    .value__item_container {
+        bottom: 15px;
+        max-width: 198px;
+    }
+    .value__item_title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .value__item_text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .cook {
+        padding: 0 10px;
+    }
+    .cook__item__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .cook__item__desc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .text-item {
+        max-width: 500px;
+        font-size: 23px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+    }
+    .quality__press {
+        padding: 40px 0;
+    }
+
+    .quality__press img {
+        width: 30%;
+        height: 30%;
+    }
+    .text-item_left {
+        max-width: 570px;
+        top: 33%;
+        left: 0;
+        margin-left: -422px;
+        font-size: 27px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+    }
+    .text-item_right {
+        max-width: 570px;
+        top: 33%;
+        right: 0;
+        margin-right: -422px;
+        font-size: 27px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+    }
+    .comm__title {
+        padding-top: 40px;
+    }
+    .comm__text {
+        padding: 20px 0 57px;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+    }
+    .quality__add-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: start;
+        padding: 60px 0;
+    }
+    .info-item {
+        max-width: 202px;
+    }
+    .info-item__title {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .info-item__text {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .footer {
+        padding: 40px 40px 19px;
+        margin-bottom: 100px;
+        max-height: 360px;
+    }
+    .touch_title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .footer__menu {
+        padding-right: 0;
+    }
+    .menu__item {
+        padding-left: 33px;
+    }
+    .item__text-link {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .footer__prop {
+        position: absolute;
+        bottom: 32px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .italic_info {
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .menu_white {
+        position: relative;
+        padding: 0 50px;
+        z-index: 10;
+    }
+
+    .burger__header {
+        position: absolute;
+        width: 40px;
+        height: 35px;
+        right: 30px;
+        top: 15px;
+        display: block;
+    }
+    .burger__header span, .burger__header:before, .burger__header:after {
+        position: absolute;
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: #383230;
+        margin: 0 auto;
+    }
+    .burger__header span {
+        position: absolute;
+        top: 16px;
+    }
+    .burger__header:before, .burger__header:after {
+        content: '';
+    }
+    .burger__header:after {
+        bottom: 5px;
+    }
+    .burger__header:before {
+        top: 5px;
+    }
+    .burger__header.open-menu span {
+        opacity:0;
+        transition: 0.5s;
+    }
+    .burger__header.open-menu:before {
+        transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+    .burger__header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+    .menu_white__list {
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background: #383230;
+        width: 130px;
+        font-size: 50px;
+        margin-bottom: 30px;
+        right: -100%;
+        transition: all 0.6s ease;
+    }
+    .menu_white__list.open-menu {
+        right: 0;
+    }
+    .menu_white__list img {
+        background-color: #FFFFFF;
+    }
+    .menu_white__list a {
+        color: #FFFFFF;
+        font-size: 22px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .menu_black {
+        padding: 0 20px;
+    }
+    .menu_black li:first-child {
+        padding: 0;
+    }
+    .menu_black ul {
+        align-items: center;
+        padding: 0;
+    }
+    .menu_black a {
+        padding: 0;
+    }
+    .menu_white {
+        display: block;
+        padding: 0 20px;
+        z-index: 10;
+    }
+    .menu_white__list {
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background: #383230;
+        width: 130px;
+        font-size: 50px;
+        margin-bottom: 30px;
+        right: -100%;
+        transition: all 0.4s ease;
+    }
+    .header__logo {
+        padding: 10px 0;
+    }
+    .site_title {
+        height: auto;
+        padding: 30px 0;
+        font-size: 36px;
+        line-height: 1.4;
+        letter-spacing: 3px;
+    }
+    .header__image {
+        padding: 0 5px;
+        margin-bottom: 30px;
+    }
+    .header__text {
+        max-width: 100%;
+        padding: 0 5px;
+        height: auto;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        color: #000000;
+    }
+    .header__text_link p {
+        padding-top: 28px;
+        font-size: 10px;
+        line-height: 9px;
+        letter-spacing: 0.1px;
+        color: #000000;
+    }
+    .logos a {
+        padding: 7px 16px 0 0;
+    }
+    .pics_title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .pics_text {
+        padding-top: 0;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #555555;
+    }
+    .arrivals__pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .arrivals__jewellery {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .jewellery_title {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    .jewellery_title {
+        margin-bottom: 15px;
+    }
+    .jewellery_text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 16px;
+        padding-left: 0;
+    }
+    .jewellery_button {
+        width: 40%;
+        height: 40%;
+        padding: 5px;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.4px;
+    }
+    .jewellery__pics {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .jewellery__item {
+        width: 140px;
+        border: 1px solid #E0DBD2;
+    }
+    .jewellery__item_photo_container {
+        width: 140px;
+        height: 140px;
+        position: relative;
+    }
+    .jewellery_new {
+        top: 5px;
+        left: 5px;
+        font-size: 8px;
+    }
+    .quick_view {
+        left: 20px;
+        width: 70%;
+    }
+    .quick_view_rect {
+        padding: 2px 0;
+        width: 10%;
+        height: 10%;
+    }
+    .quick_view_text {
+        margin-left: 0;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .item_title {
+        margin: 10px 0 6px;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+    }
+    .item_manufact {
+        margin-bottom: 9px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .bvlgari {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .price {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .color {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .lines_prop {
+        margin: 25px 0;
+    }
+    .announcement__text {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .announcement__text_slogan {
+        margin-bottom: 10px;
+    }
+    .refresh__pics {
+        margin: 0 auto;
+    }
+    .add-items {
+        justify-content: space-evenly;
+    }
+    .refresh__add_photo_container {
+        position: relative;
+        width: 140px;
+        height: 140px;
+    }
+    .refresh__add-item {
+        width: 140px;
+        border: 1px solid #E0DBD2;
+        margin: 20px 0 0 0;
+    }
+    .refresh__quick_view {
+        left: 20px;
+        width: 70%;
+        height: auto;
+    }
+    .refresh__quick_view_rect {
+        padding: 3px 0;
+        width: 10%;
+        height: 10%;
+    }
+    .refresh__quick_view_text {
+        margin-left: 0;
+        padding-left: 10px;
+        font-size: 8px;
+    }
+    .refresh__item_manufact {
+        margin-bottom: 9px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .refresh__bvlgari {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .refresh__price {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .refresh__color {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .even-more {
+        margin: 30px 0 30px;
+    }
+    .cook {
+        margin-bottom: 10px;
+        display: block;
+    }
+    .cook__item {
+        margin: 0 auto 15px ;
+    }
+    .cook__item__desc {
+        margin-top: 0;
+        padding-left: 0;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .arrivals {
+        margin-bottom: 20px;
+    }
+    .atelier-series {
+        padding: 0 10px 30px;
+        display: block;
+    }
+    .atelier-series__pic {
+        margin: 0 auto;
+    }
+    .atelier__subtitle {
+        width: 100px;
+        height: 14px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .atelier__title {
+        padding: 16px 0;
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+        text-align: center;
+    }
+    .atelier-series__desc {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .atelier__shop-now {
+        padding: 7px 10px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .atelier-trending {
+        padding: 10px;
+    }
+    .trending__title {
+        margin-bottom: 12px;
+    }
+    .trending__items {
+        justify-content: space-evenly;
+    }
+    .trending__item {
+        margin-top: 10px;
+    }
+    .trending__quick_view {
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .trending__quick_view_rect {
+        padding: 3px;
+    }
+    .trending__quick_view_text {
+        font-size: 8px;
+    }
+    .trending_new, .trending_new-dark {
+        top: 5px;
+        left: 5px;
+        font-size: 8px;
+    }
+    .atelier-value {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .value__title {
+        margin-bottom: 20px;
+    }
+    .value__pics {
+        display: block;
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    .value__item {
+        max-width: 230px;
+        max-height: 320px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .value__title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+    }
+    .cook {
+        padding: 0 10px;
+    }
+    .cook__item {
+        margin-bottom: 15px;
+    }
+    .addit {
+        margin-top: 10px;
+    }
+    .quality {
+        padding: 0 10px;
+    }
+    .press_title {
+        margin-bottom: 30px;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+    .text-item {
+        max-width: 310px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .text-item_left {
+        max-width: 310px;
+        top: 60%;
+        left: 0;
+        margin-left: -252px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .text-item_right {
+        max-width: 310px;
+        top: 60%;
+        right: 0;
+        margin-right: -239px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .quality__press {
+        padding: 20px 0;
+    }
+    .comm__title {
+        padding-top: 20px;
+    }
+    .quality {
+        padding: 0;
+    }
+    .quality__commitment {
+        padding: 0 30px 10px;
+    }
+    .comm__text {
+        padding: 20px 0 10px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .quality__add-info {
+        display: block;
+        padding: 30px 0;
+    }
+    .info-item {
+        margin: 0 auto;
+    }
+    .info-item__title {
+        margin-bottom: 3px;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .info-item__text {
+        margin: 7px 0 15px;
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .touch_title {
+        width: 67%;
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0 auto 10px;
+    }
+    .touch_text {
+        margin: 0 auto 23px;
+        max-width: 270px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        /*text-align: center;*/
+    }
+    .sign-inn {
+        margin-right: 8px;
+        width: 150px;
+        height: 40px;
+    }
+    .submit {
+        width: 77px;
+        height: 40px;
+    }
+    .footer {
+        padding: 20px 10px 19px;
+        margin-bottom: 50px;
+        max-height: 460px;
+    }
+    .footer__nav {
+        display: block;
+    }
+    .footer__touch h2 p {
+        text-align: center;
+    }
+    .touch_submit {
+        margin-bottom: 20px;
+    }
+    .footer__menu {
+        width: 310px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    .menu__item:first-child a, .menu__item:first-child p {
+        padding-left: 0;
+    }
+    .item__title {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .item__text-link {
+        margin-bottom: 5px;
+        font-size: 11px;
+        line-height: 10px;
+    }
+    .menu {
+        padding-left: 0;
+    }
+    .menu__item {
+        width: 96px;
+        padding-left: 0;
+    }
+    .footer__prop {
+        bottom: 20px;
+        width: 100%;
+        display: block;
+    }
+    .prop__text {
+        margin-bottom: 20px;
+    }
+    .prop__text > img {
+        padding-right: 10px;
+    }
+    .prop__text > :last-child {
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+
+    .menu_black {
+        padding: 0 20px;
+    }
+    .menu_black li:first-child {
+        padding: 0;
+    }
+    .menu_black ul {
+        align-items: center;
+        padding: 0;
+    }
+    .menu_black a {
+        padding: 0;
+    }
+    .menu_white {
+        display: block;
+        padding: 0 20px;
+        opacity: 1;
+        animation: none;
+        z-index: 10;
+    }
+    .menu_white__list {
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background: #383230;
+        width: 130px;
+        font-size: 50px;
+        margin-bottom: 30px;
+        right: -100%;
+        transition: all 0.4s ease;
+
+    }
+    .header__logo {
+        padding: 10px 0;
+    }
+    .site_title {
+        height: auto;
+        padding: 30px 0;
+        font-size: 36px;
+        line-height: 1.4;
+        letter-spacing: 3px;
+    }
+    .anim__title {
+        opacity: 1;
+        animation: none;
+        font-size: 36px;
+        white-space: normal;
+    }
+    .header__image {
+        padding: 0 5px;
+        margin-bottom: 30px;
+    }
+    .header__image_photo {
+        animation: none;
+        opacity: 1;
+    }
+    .header__text {
+        max-width: 100%;
+        padding: 0 5px;
+        height: auto;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        color: #000000;
+    }
+    .header__text_link p {
+        padding-top: 28px;
+        font-size: 10px;
+        line-height: 9px;
+        letter-spacing: 0.1px;
+        color: #000000;
+    }
+    .logos a {
+        padding: 7px 16px 0 0;
+    }
+    .pics_title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .pics_text {
+        padding-top: 0;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #555555;
+    }
+    .arrivals__pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .arrivals__jewellery {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .jewellery_title {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    .jewellery_title {
+        margin-bottom: 15px;
+    }
+    .jewellery_text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 16px;
+        padding-left: 0;
+    }
+    .jewellery_button {
+        width: 40%;
+        height: 40%;
+        padding: 5px;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.4px;
+    }
+    .jewellery__pics {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .jewellery__item {
+        width: 140px;
+        border: 1px solid #E0DBD2;
+    }
+    .jewellery__item_photo_container {
+        width: 140px;
+        height: 140px;
+        position: relative;
+    }
+    .jewellery_new {
+        top: 5px;
+        left: 5px;
+        font-size: 8px;
+    }
+    .quick_view {
+        left: 20px;
+        width: 70%;
+    }
+    .quick_view_rect {
+        padding: 2px 0;
+        width: 10%;
+        height: 10%;
+    }
+    .quick_view_text {
+        margin-left: 0;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .item_title {
+        margin: 10px 0 6px;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+    }
+    .item_manufact {
+        margin-bottom: 9px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .bvlgari {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .price {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .color {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .lines_prop {
+        margin: 25px 0;
+    }
+    .announcement__text {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .announcement__text_slogan {
+        margin-bottom: 10px;
+    }
+    .refresh__pics {
+        margin: 0 auto;
+    }
+    .add-items {
+        justify-content: space-between;
+    }
+    .refresh__add_photo_container {
+        position: relative;
+        width: 140px;
+        height: 140px;
+    }
+    .refresh__add-item {
+        width: 140px;
+        border: 1px solid #E0DBD2;
+        margin: 20px 0 0 0;
+    }
+    .refresh__quick_view {
+        left: 20px;
+        width: 70%;
+        height: auto;
+    }
+    .refresh__quick_view_rect {
+        padding: 3px 0;
+        width: 10%;
+        height: 10%;
+    }
+    .refresh__quick_view_text {
+        margin-left: 0;
+        padding-left: 10px;
+        font-size: 8px;
+    }
+    .refresh__item_manufact {
+        margin-bottom: 9px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .refresh__bvlgari {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .refresh__price {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .refresh__color {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .even-more {
+        margin: 30px 0 30px;
+    }
+    .cook {
+        margin-bottom: 10px;
+        display: block;
+    }
+    .cook__item {
+        margin-bottom: 10px;
+    }
+    .cook__item__desc {
+        margin-top: 0;
+        padding-left: 0;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .arrivals {
+        margin-bottom: 20px;
+    }
+    .atelier-series {
+        padding: 0 10px 30px;
+        display: block;
+    }
+    .atelier__subtitle {
+        width: 100px;
+        height: 14px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .atelier__title {
+        padding: 16px 0;
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+        text-align: center;
+    }
+    .atelier-series__desc {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .atelier__shop-now {
+        padding: 7px 10px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .atelier-trending {
+        padding: 10px;
+    }
+    .trending__title {
+        margin-bottom: 12px;
+    }
+    .trending__item {
+        margin-top: 10px;
+    }
+    .trending__quick_view {
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .trending__quick_view_rect {
+        padding: 3px;
+    }
+    .trending__quick_view_text {
+        font-size: 8px;
+    }
+    .trending_new, .trending_new-dark {
+        top: 5px;
+        left: 5px;
+        font-size: 8px;
+    }
+    .atelier-value {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .value__title {
+        margin-bottom: 20px;
+    }
+    .value__pics {
+        display: block;
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    .value__item {
+        max-width: 230px;
+        max-height: 320px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .addit {
+        margin-top: 10px;
+    }
+    .value__title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.6px;
+    }
+    .cook__item {
+        margin-bottom: 15px;
+    }
+    .quality {
+        padding: 0 10px;
+    }
+    .press_title {
+        margin-bottom: 30px;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+    .text-item {
+        max-width: 310px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .text-item_left {
+        max-width: 310px;
+        top: 60%;
+        left: 0;
+        margin-left: -252px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .text-item_right {
+        max-width: 310px;
+        top: 60%;
+        right: 0;
+        margin-right: -239px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .quality__press {
+        padding: 20px 0;
+    }
+    .comm__title {
+        padding-top: 20px;
+    }
+    .quality__commitment {
+        padding: 0 30px 10px;
+    }
+    .comm__text {
+        padding: 20px 0 10px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .quality__add-info {
+        padding: 30px 0;
+    }
+    .info-item__title {
+        margin-bottom: 3px;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .info-item__text {
+        margin: 7px 0 15px;
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .touch_title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .touch_text {
+        margin-bottom: 23px;
+        max-width: 270px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+    .sign-inn {
+        margin-right: 8px;
+        width: 150px;
+        height: 40px;
+    }
+    .submit {
+        width: 77px;
+        height: 40px;
+    }
+    .footer {
+        padding: 20px 10px 19px;
+        margin-bottom: 50px;
+        max-height: 460px;
+    }
+    .footer__nav {
+        display: block;
+        justify-content: space-between;
+    }
+    .touch_submit {
+        margin-bottom: 20px;
+    }
+    .footer__menu {
+        width: 310px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+    .menu__item:first-child a, .menu__item:first-child p {
+        padding-left: 0;
+    }
+    .item__title {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .item__text-link {
+        margin-bottom: 5px;
+        font-size: 11px;
+        line-height: 10px;
+    }
+    .menu {
+        padding-left: 0;
+    }
+    .menu__item {
+        width: 96px;
+        padding-left: 0;
+    }
+    .footer__prop {
+        bottom: 20px;
+        width: 100%;
+        display: block;
+    }
+    .prop__text {
+        margin: 10px 0;
+    }
+    .prop__text > img {
+        padding-right: 10px;
+    }
+    .prop__text > :last-child {
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
