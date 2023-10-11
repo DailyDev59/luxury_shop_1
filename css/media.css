@@ -1,3 +1,12 @@
+@media screen and (max-width: 1060px) {
+    .refresh__pics {
+        justify-content: center;
+    }
+    .refresh__main-item {
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     
     .menu_white {
@@ -76,12 +85,6 @@
         width: 87%;
         display: flex;
         justify-content: space-between;
-    }
-}
-
-@media screen and (max-width: 1060px) {
-    .refresh__pics {
-        justify-content: center;
     }
 }
 
