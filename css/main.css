@@ -553,7 +553,7 @@ a {
 .add-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 
     max-width: 540px;
 }
@@ -572,9 +572,9 @@ a {
     margin-top: 0;
 }
 
-.add-2, .add-4 {
+/* .add-2, .add-4 {
     margin-left: 42px;
-}
+} */
 
 .refresh__add_photo_container {
     position: relative;
