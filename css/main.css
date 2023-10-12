@@ -540,8 +540,7 @@ a {
 .refresh__pics {
     margin-bottom: 118px;
 
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;    
     justify-content: space-between;
 }
 
@@ -1128,9 +1127,7 @@ a {
     position: relative;
 
     background: #383230;
-    padding: 78px 80px 38px;
-    margin-bottom: 100px;
-
+    padding: 78px 80px 38px;    
     height: 564px;
 }
 
@@ -1305,49 +1302,4 @@ a {
     background: #8C8C8C;
     transition: .2s;
 }
-
-
 /*Footer ends*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

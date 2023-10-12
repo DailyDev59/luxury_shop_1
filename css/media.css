@@ -319,8 +319,8 @@
     }
     .footer {
         padding: 40px 40px 19px;
-        margin-bottom: 100px;
-        max-height: 360px;
+        /* margin-bottom: 100px; */
+        height: 360px;
     }
     .touch_title {
         font-size: 32px;
@@ -898,7 +898,7 @@
     .footer {
         padding: 20px 10px 19px;
         margin-bottom: 50px;
-        max-height: 460px;
+        height: 460px;
     }
     .footer__nav {
         display: block;
@@ -1404,22 +1404,19 @@
         height: 40px;
     }
     .footer {
-        padding: 20px 10px 19px;
-        margin-bottom: 50px;
-        max-height: 460px;
+        padding: 20px 10px 19px;        
+        height: 760px;        
     }
     .footer__nav {
-        display: block;
-        justify-content: space-between;
+        display: block;        
     }
     .touch_submit {
         margin-bottom: 20px;
     }
     .footer__menu {
-        width: 310px;
-        display: flex;
-        justify-content: space-between;
-        padding-right: 10px;
+        width: 100%;        
+        display: block;
+        text-align: center;
     }
     .menu__item:first-child a, .menu__item:first-child p {
         padding-left: 0;
@@ -1427,24 +1424,25 @@
     .item__title {
         display: block;
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 20px;
         line-height: 14px;
     }
     .item__text-link {
-        margin-bottom: 5px;
-        font-size: 11px;
-        line-height: 10px;
+        margin-bottom: 7px;
+        font-size: 16px;
+        line-height: 1;
     }
     .menu {
         padding-left: 0;
     }
     .menu__item {
-        width: 96px;
-        padding-left: 0;
-    }
-    .footer__prop {
-        bottom: 20px;
         width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .footer__prop {        
+        bottom: 20px;
+        width: 90%;
         display: block;
     }
     .prop__text {
