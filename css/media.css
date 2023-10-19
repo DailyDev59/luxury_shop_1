@@ -429,12 +429,7 @@
 }
 
 @media screen and (max-width: 665px) {
-    .arrivals__jewellery {
-        flex-wrap: wrap;
-    }
-    .jewellery_info {
-        margin-bottom: 20px;
-    }
+       
 
 }
 
@@ -579,15 +574,11 @@
         line-height: 10px;
         letter-spacing: 0.4px;
     }
-    .jewellery__pics {
-        margin-top: 15px;
+    .jewellery__pics {        
+        margin: 15px auto 0;
         display: flex;
         justify-content: space-evenly;
-    }
-    .jewellery__item {
-        width: 140px;
-        border: 1px solid #E0DBD2;
-    }
+    }    
     .jewellery__item_photo_container {
         width: 140px;
         height: 140px;
@@ -1076,11 +1067,13 @@
         justify-content: space-evenly;
         margin-bottom: 10px;
     }
+
     .arrivals__jewellery {
-        display: block;
+        display: inline-block;
         justify-content: space-between;
         align-items: center;
     }
+    
     .jewellery_title {
         font-size: 30px;
         line-height: 30px;
@@ -1104,19 +1097,20 @@
         letter-spacing: 0.4px;
     }
     .jewellery__pics {
-        margin-top: 15px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between;        
+        margin: 15px auto 0;
     }
     .jewellery__item {
-        width: 140px;
+        width: 100%;
         border: 1px solid #E0DBD2;
     }
-    .jewellery__item_photo_container {
-        width: 140px;
-        height: 140px;
+    .photo_container-1, .photo_container-2 {
+        width: 287px;
+        height: 287px;
+        width: 100%;
         position: relative;
-    }
+}
     .jewellery_new {
         top: 5px;
         left: 5px;

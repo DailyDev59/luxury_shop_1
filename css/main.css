@@ -39,47 +39,28 @@ a {
     display: none !important;
 }
 
-/*Header starts*/
-
-
 .menu_black {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-
+    gap: 32px;
     height: 30px;
-
     padding: 0 102px 0 100px;
-
     font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 400;
     font-size: 11px;
     line-height: 18px;
     text-transform: uppercase;
-
     color: #FFFFFF;
     background: #383230;
 }
 
-.menu_black ul {
-    display: flex;
-    padding-top: 2px;
-}
-
-.menu_black li {
-    padding: 6px 16px;
-}
-
-.menu_black li:first-child {
-    padding: 6px 20px 13px;
-}
-
-.menu_black li:last-child {
-    padding-right: 0;
-}
-
 .menu_black a {
     color: #FFFFFF;
+}
+
+.menu_black a:first-child {
+    margin-right: auto;
 }
 
 .menu_black a:hover, .menu_white a:hover {
@@ -89,14 +70,11 @@ a {
 
 .menu_white {
     height: 61px;
-
     padding: 0 100px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
     background: #FEFDFC;
     opacity: 0;
     animation: text 3s ease-in-out 1;
@@ -145,12 +123,9 @@ a {
     justify-content: center;
     text-align: center;
     align-items: center;
-
     height: 236px;
-
     padding-bottom: 4px;
     padding-right: 5px;
-
     font-family: 'EB Garamond', serif;
     font-weight: 400;
     font-size: 48px;
@@ -261,14 +236,9 @@ a {
     padding-right: 0;
 }
 
-/*Header ends*/
-
-/*Arrivals start*/
-
 .arrivals {
     padding-top: 95px;
     margin-bottom: 37px;
-
     background: #FEFDFC;
 }
 
@@ -276,7 +246,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
     margin-bottom: 120px;
 }
 
@@ -322,8 +291,14 @@ a {
 
 .arrivals__jewellery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
+}
+
+.jewellery_info {
+    max-width: 400px;
 }
 
 .jewellery_title {
@@ -332,7 +307,6 @@ a {
     line-height: 58px;
     letter-spacing: 2.4px;
     color: #000000;
-
     margin-bottom: 29px;
 }
 
@@ -340,7 +314,6 @@ a {
     font-size: 15px;
     line-height: 26px;
     color: #000000;
-
     margin: 0 0 28px 0;
     padding-left: 0;
 }
@@ -348,11 +321,8 @@ a {
 .jewellery_button {
     width: 153px;
     height: 43px;
-
     border: 1px solid #000000;
-
     padding: 12px 16px 16px;
-
     font-size: 13px;
     line-height: 14px;
     letter-spacing: 0.4px;
@@ -361,25 +331,35 @@ a {
 }
 
 .jewellery__pics {
-    display: flex;    
-}
-
-.jewellery__item:last-child {
-    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .jewellery__item {
     max-width: 287px;    
     border: 1px solid #E0DBD2;
+    margin: 0 auto;
 }
 
 .jewellery__item h4, p {
     padding-left: 17px;
 }
 
-.jewellery__item_photo_container {
-    width: 100%;
+.photo_container-1, .photo_container-2 {
+    width: 287px;
+    height: 287px;
+    /* width: 100%;     */
     position: relative;
+}
+
+.photo_container-1 {    
+    background: url(./../images/jpg/earrings-min.jpg) 50% 0% / auto auto no-repeat;
+}
+
+.photo_container-2 {    
+    position: relative;
+    background: url(./../images/jpg/necklace-min.jpg) 20% 40%/ auto;
 }
 
 .jewellery__item_photo {
